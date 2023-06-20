@@ -1,0 +1,213 @@
+.left,
+.right {
+    /* border: 1px solid red; */
+    /* height: 90px; */
+    width: 49.6%;
+    display: inline-block;
+    /* padding-left: 1px; */
+}
+
+.inleft,
+.inright {
+    /* border: 2px solid green; */
+    /* height: 100%;
+    width: 80%; */
+
+}
+
+.main {
+    text-align: justify;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+}
+
+.after_main {
+    border: 1px solid rgba(0, 0, 0, 40%);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.main>.after_main>p>b {
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main>.after_main>p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main>.after_main>p>span {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 60%;
+}
+
+.spantext {
+    text-align: center;
+    /* word-spacing: 10px; */
+}
+
+.hr {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.hr>img {
+    width: 20px;
+}
+
+.hr>span {
+    padding-left: 12px;
+    padding-top: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.inleft>p>b,
+.inright>p>b {
+    /* font-weight: lighter; */
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inleft>p>span,
+.inright>p>span {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.inleft>h1,
+.inright>h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inright>h1,
+.inright>p {
+    padding-left: 45px;
+    /* display: inline; */
+    /* border: 2px solid red; */
+}
+
+.inleft>p>span>b,
+.inright>p>span>b {
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 60%;
+    font-style: italic;
+}
+
+.inleft>p>span>span,
+.inright>p>span>span {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 60%;
+    padding-left: 65%;
+    font-style: italic;
+}
+
+.inleft>li,
+.inright>li {
+    text-align: left;
+    /* font-family:'Times New Roman', Times, serif ; */
+    font-size: 14px;
+    /* font-size: 14px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.skills {
+    padding-left: 45px;
+
+}
+
+#box {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    /* padding: 8px 8px 8px; */
+    height: 22px;
+    padding-top: 6px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    background-color: rgb(148, 148, 148);
+    /* box-shadow: 5px 1px 10px black; */
+    color: rgb(255, 255, 255);
+
+}
+
+.mainLangBox {
+    /* border: 1px solid green; */
+    padding-left: 90px;
+    word-spacing: 80px;
+}
+
+.langBox {
+    /* border: 2px solid red; */
+    width: 48px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgb(33, 46, 54);
+    display: inline-block;
+}
+
+.langBoxMid {
+    /* border: 2px solid black; */
+    width: 48px;
+    height: 40px;
+    background-color: rgb(33, 46, 54);
+    display: inline-block;
+}
+
+.langBoxsec {
+    /* border: 2px solid red; */
+    width: 48px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgb(197, 197, 197);
+    display: inline-block;
+}
+
+.langBoxMidsec {
+    /* border: 2px solid black; */
+    width: 48px;
+    height: 40px;
+    background-color: rgb(33, 46, 54);
+    display: inline-block;
+}
+
+.langBoxthrid {
+    /* border: 2px solid red; */
+    width: 48px;
+    height: 20px;
+    padding-top: 20px;
+    background-color: rgb(197, 197, 197);
+    display: inline-block;
+}
+
+.langBoxMidthird {
+    /* padding-top: 20px; */
+    /* border: 2px solid black; */
+    width: 48px;
+    height: 30px;
+    background-color: rgb(33, 46, 54);
+    display: inline-block;
+}
+
+.mainLangBox span {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
