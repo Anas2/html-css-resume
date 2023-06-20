@@ -211,3 +211,26 @@
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      width: 100%;
+    }
+    .main{
+        padding: 0px;
+        width: 95%;
+    }
+    .after_main{
+        margin: 0px;
+        /* width: 100%; */
+    }
+    .left,.right{
+        width: 100%;
+    }
+    .mainLangBox{
+        padding: 0px;
+        text-align: center;
+    }
+  }
